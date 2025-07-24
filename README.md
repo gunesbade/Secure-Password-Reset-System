@@ -1,4 +1,5 @@
 # Secure Password Reset System
+
 This project was developed during my internship to allow employees to reset their Active Directory passwords securely without contacting the IT department. The application is built using **Java** and **Spring Boot**, with identity verification handled through an **H2 database**, and password reset operations performed via **PowerShell** commands integrated through **LDAP**.
 
 ## Features
@@ -11,12 +12,13 @@ This project was developed during my internship to allow employees to reset thei
 - Simulated data via H2 database
 
 ## Technologies Used
-- Java (Spring Boot, Lombok)
-- H2 Database
-- LDAP (Javax)
-- PowerShell
-- HTML
-- draw.io (flowchart)
+- **Java** (Spring Boot, Lombok)
+- **H2 Database**
+- **LDAP** (Javax)
+- **PowerShell**
+- **HTML**
+- **Postman** – for API testing
+- **draw.io** – system flowchart
 
 ## Project Structure
 - `ResetControllerV2`: Handles HTTP requests
